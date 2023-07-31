@@ -13,6 +13,7 @@
     <PackageTags>litedb;db;lite;studio;litedb.studio;litedbstudio;utility;database</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Planktomas/LiteDBUtility</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
