@@ -5,7 +5,7 @@ Provides a quick way of integrating LiteDB and using LiteDB.Studio into C# appli
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/planktomas/litedbutility)
 
 ### Features
-+ Includes an embedded database IDE LiteDB.Studio
++ Includes an embedded database IDE LiteDB Studio
 + References a LiteDB nuget package
 
 ### Tutorial
