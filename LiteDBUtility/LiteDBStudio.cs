@@ -17,7 +17,7 @@ namespace LiteDBUtility
 
         static void ExtractZipResource(string zipFileName)
         {
-            var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+            var assemblies = AppDomain.CurrentDomain.GetAssemblies().Where(a => !a.IsDynamic);
 
             Parallel.ForEach(assemblies, (assembly, state) =>
             {
